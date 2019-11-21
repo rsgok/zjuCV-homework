@@ -5,3 +5,6 @@ CMakeFiles
 Makefile
 
 .DS_Store
+
+assets
+*.avi
