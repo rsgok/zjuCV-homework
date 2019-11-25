@@ -24,11 +24,12 @@ int main(int argc, char** argv ) {
     glob(datadir+"/*.jpg",imgpaths,false);
     glob(datadir+"/*.avi",avipaths,false);
     // test
-    /*for (auto &item : imgpaths)
+    cout << "import file:" << endl;
+    for (auto &item : imgpaths)
     {
         cout << item << endl;
     }
-    cout << avipaths[0] << endl;*/
+    cout << avipaths[0] << endl;
     // test ok
     string myinfo = "Author: wangjinkai 3170102728";
     // image
@@ -92,4 +93,5 @@ int main(int argc, char** argv ) {
         writer.write(framep);
     }
     writer.release();
+    cout << "Process successfully!" << endl;
 }
