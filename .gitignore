@@ -1,12 +1,10 @@
-CMakeFiles
+/.vscode
+.DS_Store
+Makefile
 *.cmake
 *Cache*
+CMakeFiles
 
-Makefile
+/testOpenCV/testOpenCV
 
-.DS_Store
-
-assets
-*.avi
-
-.vscode
+/hw1/assets
